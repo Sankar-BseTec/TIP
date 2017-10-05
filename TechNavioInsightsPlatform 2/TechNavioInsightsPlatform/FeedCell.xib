@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedCell" rowHeight="110" id="KGk-i7-Jjw" customClass="FeedCell" customModule="TechNavioInsightsPlatform" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="104.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Andy Rubin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Gy-L8-jL3">
+                        <rect key="frame" x="8" y="8" width="267" height="24"/>
+                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 85" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hr-nA-fDr">
+                        <rect key="frame" x="283" y="8" width="29" height="24"/>
+                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzh-i1-Xik">
+                        <rect key="frame" x="8" y="40" width="304" height="53.5"/>
+                        <string key="text">Description text Description text Description text Description text Description text Description text Description text Description text Description text Description text Description text </string>
+                        <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8Hr-nA-fDr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="16K-Q0-YWP"/>
+                    <constraint firstItem="fzh-i1-Xik" firstAttribute="top" secondItem="8Hr-nA-fDr" secondAttribute="bottom" constant="8" id="9DU-13-DR0"/>
+                    <constraint firstItem="8Hr-nA-fDr" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="J7Z-UP-vwA"/>
+                    <constraint firstItem="fzh-i1-Xik" firstAttribute="top" secondItem="4Gy-L8-jL3" secondAttribute="bottom" constant="8" id="Vs3-0Q-kmQ"/>
+                    <constraint firstItem="fzh-i1-Xik" firstAttribute="top" secondItem="8Hr-nA-fDr" secondAttribute="bottom" constant="8" id="XFk-pF-kCs"/>
+                    <constraint firstItem="4Gy-L8-jL3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="dvf-ie-T2b"/>
+                    <constraint firstItem="fzh-i1-Xik" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="eGY-5L-JXS"/>
+                    <constraint firstItem="fzh-i1-Xik" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="lCC-FR-n41"/>
+                    <constraint firstItem="8Hr-nA-fDr" firstAttribute="leading" secondItem="4Gy-L8-jL3" secondAttribute="trailing" constant="8" id="q20-ld-aGu"/>
+                    <constraint firstItem="4Gy-L8-jL3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="vgi-xO-anf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-60" y="-332.5"/>
+        </tableViewCell>
+    </objects>
+</document>

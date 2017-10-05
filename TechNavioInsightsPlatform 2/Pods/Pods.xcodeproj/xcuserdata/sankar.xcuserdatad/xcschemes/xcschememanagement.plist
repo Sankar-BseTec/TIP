@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JVFloatLabeledTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TechNavioInsightsPlatform.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TechNavioInsightsPlatformTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TechNavioInsightsPlatformUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>274FFC94D76D618EAFA4127A93122471</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2A4448146C785C426971111F117D773C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D5A7E7E0B7336E5A80AA43405ADEBC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77298F1B368F791B34CFEE6E763C5ED0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

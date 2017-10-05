@@ -1,0 +1,6 @@
+framework module Pods_TechNavioInsightsPlatformUITests {
+  umbrella header "Pods-TechNavioInsightsPlatformUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
