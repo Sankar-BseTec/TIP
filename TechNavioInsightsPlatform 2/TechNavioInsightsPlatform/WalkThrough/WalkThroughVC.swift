@@ -10,10 +10,15 @@ import UIKit
 
 class WalkThroughVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
     
+    @IBOutlet weak var pgControlWalkThru: UIPageControl!
     var dataArr : [WalkThroughModel]{
         
         var dataAr = [WalkThroughModel]()
-        dataAr.append(WalkThroughModel(imgName: "Banner-bg-3", titleTxt: "Inside the secret room you'll find a red ball on the ground.", descTxt: "Examine the portrait of a white snake near where the secret room is and you'll be prompted to insert the red ball. Once you do the painting on the right will fall."))
+        dataAr.append(WalkThroughModel(imgName: "Banner-bg-3", titleTxt: """
+    Inside the secret room you'll find a red ball on the ground.
+    """, descTxt: """
+   Examine the portrait of a white snake near where the secret room is and you'll be prompted to insert the red ball. Once you do the painting on the right will fall.
+ """))
         dataAr.append(WalkThroughModel(imgName: "Banner-bg-2", titleTxt: "Inside the secret room you'll find a red ball on the ground.", descTxt: "Examine the portrait of a white snake near where the secret room is and you'll be prompted to insert the red ball. Once you do the painting on the right will fall."))
         dataAr.append(WalkThroughModel(imgName: "Banner-bg-1", titleTxt: "Inside the secret room you'll find a red ball on the ground.", descTxt: "Examine the portrait of a white snake near where the secret room is and you'll be prompted to insert the red ball. Once you do the painting on the right will fall."))
         dataAr.append(WalkThroughModel(imgName: "Banner-bg-3", titleTxt: "Inside the secret room you'll find a red ball on the ground.", descTxt: "Examine the portrait of a white snake near where the secret room is and you'll be prompted to insert the red ball. Once you do the painting on the right will fall."))
@@ -70,7 +75,5 @@ class WalkThroughVC: UIViewController,UICollectionViewDelegate,UICollectionViewD
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-  
-    
 
 }
